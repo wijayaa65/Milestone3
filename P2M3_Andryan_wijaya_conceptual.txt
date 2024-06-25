@@ -1,0 +1,19 @@
+1. NoSQL adalah jenis sistem manajemen basis data yang dirancang untuk menangani berbagai jenis data yang tidak sesuai dengan model relasional tradisional. NoSQL singkatan dari "Not Only SQL," yang menekankan bahwa sistem ini bukan hanya untuk operasi SQL standar tetapi juga untuk tipe data dan operasi lainnya.
+2. NoSQL: Digunakan ketika:
+    -Volume Data Besar: Data yang sangat besar yang harus ditangani dengan cepat.
+    -Data Tidak Terstruktur: Data yang tidak memiliki skema tetap atau sering berubah skema.
+    -Kecepatan: Memerlukan operasi baca/tulis yang sangat cepat.
+    -Skalabilitas: Aplikasi yang harus mendukung pertumbuhan horizontal dengan menambah server baru dengan mudah.
+    -Pengembangan Cepat: Aplikasi yang membutuhkan pengembangan dan perubahan cepat tanpa banyak pembatasan skema.
+3. mongodb:
+    -Model data dokumen yang fleksibel.
+    -Skalabilitas horizontal dengan sharding.
+    -Dukungan penuh untuk replikasi dan toleransi kesalahan.
+    -Query kaya dengan indeks sekunder. 
+apache cassandara:
+    -Arsitektur peer-to-peer yang mendukung distribusi data yang merata di seluruh kluster.
+    -Ketersediaan tinggi dan tanpa single point of failure.
+    -Skalabilitas horizontal yang sangat baik.
+    -Dukungan untuk query cepat dan throughput tinggi.
+4. apache airflow adalah palform managemen alur kerja yang menggunakan DAG untuk mendifinisikan alurkerja, cara kerjanya mirip dengan pipeline
+5. Great Expectations adalah alat open-source untuk validasi data, dokumentasi, dan profil data. Alat ini membantu memastikan bahwa data yang digunakan oleh sistem memenuhi ekspektasi yang telah ditentukan oleh pengguna. 
